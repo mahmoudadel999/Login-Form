@@ -17,7 +17,7 @@ function login() {
         listUser[i].userEmail == inputEmailLogin.value
       ) {
         localStorage.setItem('userName', listUser[i].userName);
-        window.location.href = '../home.html';
+        window.location.href = 'home.html';
       } else {
         getAlert('Wrong Email or Password', 'red');
       }

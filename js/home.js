@@ -6,7 +6,7 @@ if (localStorage.getItem('userName') != null) {
 }
 
 function logout() {
-  window.location.href = '../login.html';
+  window.location.href = 'login.html';
   localStorage.removeItem('userName');
 }
 
